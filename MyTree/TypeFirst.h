@@ -11,5 +11,4 @@ public:
 
 	TypeFirst();
 	TypeFirst(std::string name, std::string surname, int age);
-
 };

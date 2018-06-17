@@ -1,12 +1,9 @@
 #include "Tree.h"
 
-
-
 Tree::Tree()
 {
 	root = nullptr;
 }
-
 
 Tree::~Tree()
 {
@@ -21,11 +18,13 @@ void Tree::add(Type & obj)
 void Tree::deleteSubTree(Node *& node)
 {
 	if (node->son != nullptr)
+	{
 		deleteSubTree(node->son);
-
+	}
 	if (node->brother != nullptr)
+	{
 		deleteSubTree(node->brother);
-
+	}
 	delete node;
 }
 

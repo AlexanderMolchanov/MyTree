@@ -9,7 +9,6 @@ class Tree
 		Node *brother;
 
 		Node(Type &obj);
-
 	};
 
 	Node *root;

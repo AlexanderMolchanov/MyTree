@@ -2,13 +2,9 @@
 #include "TypeFirst.h"
 #include "TypeSecond.h"
 #include "TypeThird.h"
-
 #include <iostream>
 
-
-
 int main() {
-
 
 	Tree tree;
 
@@ -19,7 +15,6 @@ int main() {
 	tree.add(first);
 	tree.add(second);
 	tree.add(third);
-
 
 	system("pause");
 	return 0;

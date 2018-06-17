@@ -1,6 +1,5 @@
 #include "TypeFirst.h"
 
-
 TypeFirst::TypeFirst()
 {
 }
